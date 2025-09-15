@@ -1,27 +1,27 @@
 class Proxima < Formula
   desc "proxima is a markup-language-wrapper markup language!"
   homepage "https://github.com/vistormu/proxima"
-  version "0.5.2"
+  version "0.5.3"
   
   on_macos do
     on_arm   do
       url      "https://github.com/vistormu/proxima/releases/download/v#{version}/proxima_#{version}_darwin_arm64.tar.gz"
-      sha256   "94a002b106e8e272b54c93b1a94992595eec52f93954d3cefdd8d032f18128e3"
+      sha256   "4127ae40a799988a6711c7355e7a404216b3a5df398bb6cedf5d6b51b87217aa"
     end
     on_intel do
       url      "https://github.com/vistormu/proxima/releases/download/v#{version}/proxima_#{version}_darwin_amd64.tar.gz"
-      sha256   "5755cdce888211199b07ba78f4e7c4ab502c10c0dd58326913c367eca89ef8fb"
+      sha256   "99462b986d347b9ed2cb146cbfa5ecc9d09de5bfbdfbd68209e4b409e1f70b11"
     end
   end
   
   on_linux do
     on_arm   do
       url      "https://github.com/vistormu/proxima/releases/download/v#{version}/proxima_#{version}_linux_arm64.tar.gz"
-      sha256   "2a22840bf5c6b5a88c91528af3ef65308937f10b273066b92c8fd4c69f5a2a64"
+      sha256   "9f0521da6f0a770fad1b02d1325d9c9d049daf44f027533f1adffa4fd89b6bc9"
     end
     on_intel do
       url      "https://github.com/vistormu/proxima/releases/download/v#{version}/proxima_#{version}_linux_amd64.tar.gz"
-      sha256   "938bc34aded3de4d150971edf2f850620cdf136f3e142546412d6c2a6e0ba1b8"
+      sha256   "c4982a7f306de8c355736a44f8546e94361ddb4b4dedead44b2aea3226dc07fe"
     end
   end
   
